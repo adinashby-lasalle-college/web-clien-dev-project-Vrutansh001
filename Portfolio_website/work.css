@@ -1,0 +1,111 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img{
+    box-shadow: -10px 15px 5px, 3px 5px 5px;
+    margin: 10px;
+}
+
+.project h3{
+    letter-spacing: 8px;
+    text-shadow: 0px 5px 9px;
+    padding-bottom: 25px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.project p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    word-spacing: 5px;
+    font-style: oblique;
+    width: 490px;
+}
+
+ h1{
+    text-align: center;
+    font-size: 4rem;;
+    font-family: monospace;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.skills div{
+    margin: 10px;
+}
+
+.skills img{
+    width: 100px;
+}
+
+.skills h3{
+    text-shadow: 0px 5px 9px;
+    padding-bottom: 25px;
+    font-weight: 900;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1050px){
+    .project img{
+        box-shadow: -10px 15px 5px, 3px 5px 5px;
+        margin: 5px;
+    }
+    
+    .project h3{
+        letter-spacing: 4px;
+        text-shadow: 0px 5px 9px;
+        padding-bottom: 15px;
+        font-weight: 900;
+        padding-top: 20px;
+    }
+    
+    .project p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        word-spacing: 2px;
+        font-style: oblique;
+        width: 330px;
+    }
+
+    .skills h3{
+        text-shadow: 0px 5px 9px;
+        padding-bottom: 15px;
+        font-weight: 900;
+        padding-top: 20px;
+        letter-spacing: 2px;
+    }
+}

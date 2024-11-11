@@ -1,0 +1,114 @@
+.past-section{
+    height: 700px;
+    margin: 0 auto;
+    background: linear-gradient(#ffffff 0%,#eeaeca 30%,#B497D6 70%,#ffffff 100%);
+    overflow-y: hidden;
+}
+
+.line{
+    margin: 30px;
+    transform: translateX(40%);
+}
+
+.line hr{
+    height: 5px;
+    background-color: black;
+    width: 20%;
+}
+
+.middle-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.middle-line{
+    height: 5px;
+    background-color: black;
+    width: 10%;
+}
+
+.middle-part h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 10rem;
+    text-shadow: 3px 5px 5px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.achieve h3{
+    font-size: 1.7rem;
+}
+
+.achieve{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.flex-container p{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.present-section{
+    height: 700px;
+    margin: 0 auto;
+    background: linear-gradient(#ffffff 0%,#A0F0C0 20%,#D8C8A8 50%,#ffffff 100%);
+    overflow-y: hidden;
+}
+
+.future-section{
+    height: 700px;
+    margin: 0 auto;
+    background: linear-gradient(#ffffff 0%, #B497D6 50%,#A0F0C0 70%,#ffffff 100%);
+    overflow-y: hidden;
+}
+
+.achieve ul{
+    display: block;
+}
+
+@media (max-width: 770px){
+
+    .past-section,.present-section,.future-section{
+        height: 500px;
+    }
+
+    .middle-part h1{
+        font-size: 6rem;
+    }
+
+    .flex-container{
+        padding: 0;
+    }
+
+    .flex-container p{
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 0.86rem;
+    }
+
+    .achieve{
+        font-size: 0.749rem;
+    }
+
+    .achieve h3{
+        font-size: 1.3rem;
+    }
+
+    .flex-container img{
+        width: 150px;
+    }
+}

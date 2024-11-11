@@ -1,0 +1,125 @@
+.section-contact{
+    height: 630px;
+    background: radial-gradient(#828282 0%,#fff 100%);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    height: 600px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email h2{
+    font-family: 'Doto', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.email p{
+    font-family: 'Doto',sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.email h5{
+    font-family: 'Doto',sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding: 10px;
+    color: rgb(194, 0, 126);
+}
+
+.box{
+    width: 65%;
+    height: 85px;
+    margin:20px;
+    box-shadow: -3px 7px 5px, 3px -5px 5px;
+    color: default;
+    border-radius: 5px 25px 5px;
+}
+
+.box a{
+    color: rgb(43, 0, 255);
+    font-family: 'Doto',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.form-box{
+    height: 350px;
+    box-shadow: 3px 3px 5px, -3px 3px 5px;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Doto',sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.form h2{
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.form input{
+    width: 70%;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 173, 220);
+}
+
+.form input::placeholder{
+    padding-left: 7px;
+    color: black;
+}
+
+.form textarea{
+    width: 430px;
+    height: 120px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 9px;
+    background: #828282;
+    color: brown;
+}
+
+@media(max-width: 1074px){
+
+    .email h5{
+        font-size: 1.5rem;
+        
+        
+    }
+
+    .email h2{
+
+        font-size: 1.8rem;
+        
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
+    .flex-container{
+        flex-direction: column;
+    }
+}

@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Doto', sans-serif;
+    font-weight: 900;
 }
 
 .logo {
@@ -120,4 +122,24 @@
         width: 30px;
         height: 30px;
     }
+
+    .navbar {
+        padding: 1em; 
+    }
+
+    .links a {
+        font-size: 1rem; 
+        margin: 5px 0; 
+    }
+
+    .footer-container input {
+        font-size: 0.9rem; 
+        padding: 8px;
+    }
+
+    .footer-container a {
+        font-size: 1rem;
   }
+
+  
+}

@@ -1,10 +1,12 @@
+.portfolio{
+    background: radial-gradient(#828282 0%,#fff 100%);
+}
 
 .flex-container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
 a{
@@ -21,7 +23,8 @@ a{
 
 .project img{
     box-shadow: -10px 15px 5px, 3px 5px 5px;
-    margin: 10px;
+    margin: 20px;
+    transition: transform 0.3s ease;
 }
 
 .project h3{
@@ -30,14 +33,16 @@ a{
     padding-bottom: 25px;
     font-weight: 900;
     padding-top: 30px;
+    font-family: 'Doto', sans-serif;
+    font-weight: 900;
 }
 
 .project p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Doto', sans-serif;
     font-size: 20px;
     word-spacing: 5px;
-    font-style: oblique;
     width: 490px;
+    font-weight: 900;
 }
 
  h1{
@@ -46,6 +51,8 @@ a{
     font-family: monospace;
     margin-top: 25px;
     margin-bottom: 25px;
+    font-family: 'Doto', sans-serif;
+    font-weight: 900;
 }
 
 .container{
@@ -77,7 +84,7 @@ a{
     font-weight: 900;
     padding-top: 30px;
     letter-spacing: 2px;
-}
+}  
 
 @media (max-width: 1050px){
     .project img{
@@ -94,7 +101,8 @@ a{
     }
     
     .project p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Doto', sans-serif;
+        font-weight: 900;
         font-size: 15px;
         word-spacing: 2px;
         font-style: oblique;

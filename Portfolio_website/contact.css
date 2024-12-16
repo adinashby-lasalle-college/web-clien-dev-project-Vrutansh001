@@ -58,9 +58,10 @@
 }
 
 .form-box{
-    height: 350px;
+    height: 420px;
     box-shadow: 3px 3px 5px, -3px 3px 5px;
     border-radius: 10px;
+    width: 550px;
 }
 
 .form{
@@ -70,6 +71,7 @@
     font-family: 'Doto',sans-serif;
     font-weight: 900;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .form h2{
@@ -100,6 +102,23 @@
     color: brown;
 }
 
+.form button{
+    width: 70%;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 173, 220);
+    padding: 10px;
+    font-family: 'Doto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.form button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 127, 219);
+}
 @media(max-width: 1074px){
 
     .email h5{
